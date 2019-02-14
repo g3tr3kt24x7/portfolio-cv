@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+      
+  }
+  
+  .text-teal {
+    color: #009688 !important;
+  }
+  
+  .bg-teal {
+    background-color: #009688 !important;
+  }
+  
+  .pf-card {
+    background-color: #fff !important;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  }
+  .bg-light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    margin-top:16px;
+  }
+  
+  i{
+    margin-right:15px;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

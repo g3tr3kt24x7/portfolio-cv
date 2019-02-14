@@ -1,0 +1,39 @@
+.container-fluid {
+    width: 75%;
+  
+  }
+  footer{
+    margin-top:15px;
+    padding:20px;
+    color:#fff;
+  }
+  #socialIcons li{
+    list-style:none;
+    display:inline-block;
+  }
+  
+  #socialIcons li a{
+    color:#fff;
+    transition:all .5s ease-in-out;
+  }
+    #socialIcons li a:hover .fab.fa-facebook-f {
+      color: #20375F;
+    }
+  
+    #socialIcons li a:hover .fab.fa-twitter {
+      color: #1DA1F2;
+    }
+    #socialIcons li a:hover .fab.fa-instagram {
+      color: #cd486b;
+    }
+    #socialIcons li a:hover .fab.fa-github {
+      color: #24292E;
+    }
+  
+    @media (max-width: 767px) {
+      /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+      .body-content {
+        padding-top: 85px;
+      }
+    }
+  
