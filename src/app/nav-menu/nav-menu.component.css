@@ -31,7 +31,27 @@
     margin-right:15px;
   }*/
   
-  
+  .download-btn{
+    position:absolute;
+    right: -11px;
+    top:-15px;
+    background-color: teal;
+    text-align: center;
+    padding: 25px;
+    border-radius: 50%;
+    color: #fff;
+  }
+
+  .download-btn i{
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 0px; 
+    height: 16px; 
+    width: 16px;
+  }
+  .download-btn:hover{
+    cursor: pointer;
+  }
   
   #skills p,#languages p{
     margin-top:15px;
